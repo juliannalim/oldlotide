@@ -1,3 +1,5 @@
+// need to git 
+// can't push this code 
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${[actual]} === ${[expected]}`);
@@ -16,9 +18,8 @@ function eqArrays (arrayOne, arrayTwo) {
   }
   for (let i = 0; i < arrayOne.length; i++) {
     if (arrayOne[i] !== arrayTwo[i]) {
-      return false
-    }
-  }
+    return false  
+   }
   return true;
 }
 
