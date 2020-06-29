@@ -47,7 +47,4 @@ const middle = function(array) {
   return middleNum;
 }
 
-// TEST CODE
-// ...
-console.log(assertArraysEqual(middle(['a', 'b', 'c', 'd', 'e']), ['c']));
-console.log(assertArraysEqual(middle([1, 2, 3, 4]), [2, 3]));
+module.exports = middle;
