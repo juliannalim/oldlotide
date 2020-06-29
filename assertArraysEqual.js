@@ -12,7 +12,4 @@ function assertArraysEqual (arrayOne, arrayTwo) {
   return `✅✅✅ Assertion Passed: ${[arrayOne]} === ${[arrayTwo]}`;
 }
 
-
-
-console.log(eqArrays([1, 2, 3], [1, 2, 3]));
-console.log(eqArrays(['hello'], 'abc'));
+module.exports = assertArraysEqual;
