@@ -8,7 +8,7 @@ const assertEqual = function(actual, expected) {
 // allItems it is an array of values to check 
 // itemsToCount an object count the keys if the the value is true
 const countOnly = function(allItems, itemsToCount) {
-  const results = {}
+const results = {}
 // try make names in the object items to Count 
 
   for (const item of allItems) {
@@ -35,9 +35,10 @@ const firstNames = [
   "Fang",
   "Joe"
 ];
-
 const result1 = countOnly(firstNames, { "Jason": true, "Karima": true, "Fang": true });
 console.log(result1);
 // assertEqual(result1["Jason"], 1);
 // assertEqual(result1["Karima"], undefined);
 // assertEqual(result1["Fang"], 2);
+
+ module.exports = countOnly;
