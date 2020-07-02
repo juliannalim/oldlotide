@@ -10,15 +10,15 @@ const findKeyByValue = require('./findKeyByValue');
 const map = map('./map');
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  assertEqual: assertEqual,
-  assertArraysEqual: assertArraysEqual,
-  eqArrays: eqArrays,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  findKeyByvalue: findKeyByValue,
-  map: map
+  head,
+  tail,
+  middle,
+  assertEqual,
+  assertArraysEqual,
+  eqArrays,
+  countLetters,
+  countOnly,
+  findKeyByValue,
+  map
 
 };
